@@ -396,8 +396,6 @@ Instead of manually searching multiple websites and writing a report, the AI pip
 * [ ] Scrape multiple sources instead of one
 * [ ] Add source credibility verification
 * [ ] Add automatic citations
-* [ ] Generate PDF reports
-* [ ] Add a web interface
 * [ ] Add research history
 * [ ] Add parallel research agents
 * [ ] Add source deduplication
