@@ -1,0 +1,26 @@
+Multi-Agent Research Assistant -> fully autonomous AI system that thinks , searches, reads and writes on its own.
+A tram of speacialized intelligent agents that collaborate together to produce a professional research report on any topic .
+
+*************************** AGENTS USED *********************************
+The Search Agent -> find most relevant and recent sources
+The Reader Agent -> deeps dive into those sources, scraping and extracting meaningful contents
+The Writer Agent -> takes all the gathered intelligence and crafts a well-structured, 
+detailed report
+Critic Agent -> reviews report , scores it and gives feedback just like senior researcher         reviewing the junior's work.
+
+Every single agent is
+- powered by Large Language Model, 
+- connected through LangChain's modern LCEL pipeline, and 
+- orchestrated through a shared memory system that makes them work as one unified brain.
+
+research topic -> SEARCH AGENT (TOOL1 -> Tavily API (Live Web results)) ->
+state['search result'] saved -> READER AGENT (TOOL2 -> BeautifulSoup scrapes pages)
+state['scrapped content'] saved ->  1. WRITER CHAIN          2. CRITIC CHAIN
+                                                FINAL OUTPUT
+
+                                          
+
+
+
+
+
